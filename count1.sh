@@ -1,7 +1,7 @@
 
-for filename in data/*.txt
+for f in data/*.txt
 date
 	-echo $data
-	+echo $filename
+	+echo $f
 	-grep -v Species $data …
-	+grep -v Species $filename…
+	+grep -v Species $f…
